@@ -56,7 +56,8 @@ Mobile.swipe(1000, 1200, 1000, 300)
 
 Mobile.tap(findTestObject('ANC/KotaKabupaten/android.widget.FrameLayout6 Pilih KotaKabupaten'), 0)
 
-Mobile.setText(findTestObject('ANC/KotaKabupaten/android.widget.EditText0 - Cari Kota. Ketik minimal 3 huruf'), 'jak', 0)
+Mobile.setText(findTestObject('ANC/KotaKabupaten/android.widget.EditText0 - Cari Kota. Ketik minimal 3 huruf'), 'jaka', 
+    0)
 
 Mobile.tap(findTestObject('ANC/KotaKabupaten/android.widget.LinearLayout5HasilPencarianKotaKabupaten'), 0)
 
