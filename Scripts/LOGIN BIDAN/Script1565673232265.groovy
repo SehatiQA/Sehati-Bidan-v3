@@ -13,24 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\Sehati - Nita\\.jenkins\\workspace\\Bidan_v.3.0.0\\app\\build\\outputs\\apk\\debug\\app-universal-debug.apk', 
-    false)
+Mobile.startApplication(GlobalVariable.appPath, false)
 
-not_run: Mobile.tap(findTestObject('LOGIN BIDAN/android.widget.Button0 - Oke mengerti'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.hideKeyboard(FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/android.widget.Button0 - Oke mengerti'), 0)
 
 Mobile.delay(2)
 
 Mobile.tapAtPosition(1000, 2117)
 
-Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText2 - Nomor yang bisa nerima SMS'), '085274037512', 
-    0)
+Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/android.widget.FrameLayout3 - nomor hp login'), GlobalVariable.phone, 0)
 
-Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText3 - Buat kata sandi yang mudah diingat'), '037512', 
-    0)
+Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/android.widget.FrameLayout4 - Password'), GlobalVariable.password, 0)
+
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('LOGIN BIDAN/android.widget.Button0 - MASUK'), 0)
 
