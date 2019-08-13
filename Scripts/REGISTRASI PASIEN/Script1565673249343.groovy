@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.view.ViewGroup20Registr
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ibu'), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Tulis nama lengkap Ibu'), 'ayana', 0)
+Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Tulis nama lengkap Ibu'), 'mayana', 0)
 
 Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText1 - Masukkan no KTP'), '0009000000000011', 0)
 
