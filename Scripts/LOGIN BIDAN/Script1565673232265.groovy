@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.appPath, false)
+Mobile.startApplication(GlobalVariable.appPath, true)
 
 Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/android.widget.Button0 - Oke mengerti'), 0)
 
@@ -21,11 +21,9 @@ Mobile.delay(2)
 
 Mobile.tapAtPosition(1000, 2117)
 
-Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/android.widget.FrameLayout3 - nomor hp login'), GlobalVariable.phone, 0)
+Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), GlobalVariable.phone, 0)
 
-Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/android.widget.FrameLayout4 - Password'), GlobalVariable.password, 0)
-
-Mobile.hideKeyboard()
+Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_password'), GlobalVariable.password, 0)
 
 Mobile.tap(findTestObject('LOGIN BIDAN/android.widget.Button0 - MASUK'), 0)
 
