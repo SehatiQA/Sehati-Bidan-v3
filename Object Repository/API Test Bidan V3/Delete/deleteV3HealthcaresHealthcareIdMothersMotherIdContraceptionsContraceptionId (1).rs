@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>deleteV3HealthcaresHealthcareIdMothersMotherIdContraceptionsContraceptionId (1)</name>
+   <tag></tag>
+   <elementGuidId>15904d3b-0c2b-4ed3-a441-3c1498e9ce74</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://staging.sehati.co/api/v3/healthcares/${healthcare_id}${/mothers/}${mother_id}${/contraceptions/}${contraception_id}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0057296c-e007-4b58-ad3b-dfe4f18a97d7</id>
+      <masked>false</masked>
+      <name>healthcare_id</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d36b7c6-f1ca-4839-9613-58736dcc7598</id>
+      <masked>false</masked>
+      <name>mother_id</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24cb571d-936c-4ab2-862e-374e3f92d58b</id>
+      <masked>false</masked>
+      <name>contraception_id</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
