@@ -34,13 +34,17 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.view.ViewGroup20Registr
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ibu'), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Tulis nama lengkap Ibu'), 'mayanar', 0)
+Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Tulis nama lengkap Ibu'), findTestData('Registrasi Pasien').getValue(
+        1, 1), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText1 - Masukkan no KTP'), '0009000000000011', 0)
+Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText1 - Masukkan no KTP'), findTestData('Registrasi Pasien').getValue(
+        2, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText2tanggalLahirIbu - Contoh 1 January 1970'), 0)
 
-Mobile.swipe(886, 2000, 886, 1314)
+Mobile.swipe(395, 1314, 395, 2000)
+
+Mobile.swipe(886, 1314, 886, 2000)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.Button0 - SimpanTanggal'), 0)
 
@@ -48,7 +52,8 @@ Mobile.swipe(1000, 1200, 1000, 300)
 
 Mobile.tap(findTestObject('ANC/Provinsi/android.widget.TextView7 - Pilih Provinsi'), 0)
 
-Mobile.setText(findTestObject('ANC/Provinsi/android.widget.EditText0 - Cari Provinsi. Ketik minimal 3 huruf'), 'jak', 0)
+Mobile.setText(findTestObject('ANC/Provinsi/android.widget.EditText0 - Cari Provinsi. Ketik minimal 3 huruf'), findTestData(
+        'Registrasi Pasien').getValue(3, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.LinearLayout5Prov1'), 0)
 
@@ -56,8 +61,8 @@ Mobile.swipe(1000, 1200, 1000, 300)
 
 Mobile.tap(findTestObject('ANC/KotaKabupaten/android.widget.FrameLayout6 Pilih KotaKabupaten'), 0)
 
-Mobile.setText(findTestObject('ANC/KotaKabupaten/android.widget.EditText0 - Cari Kota. Ketik minimal 3 huruf'), 'jaka', 
-    0)
+Mobile.setText(findTestObject('ANC/KotaKabupaten/android.widget.EditText0 - Cari Kota. Ketik minimal 3 huruf'), findTestData(
+        'Registrasi Pasien').getValue(4, 1), 0)
 
 Mobile.tap(findTestObject('ANC/KotaKabupaten/android.widget.LinearLayout5HasilPencarianKotaKabupaten'), 0)
 
@@ -65,12 +70,13 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.Button0 - Selanj
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.Button0DaftarIbu - Tambahkan Pasien Baru'), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Nomor yang bisa nerima SMS'), '', 0)
+Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Nomor yang bisa nerima SMS'), findTestData(
+        'Registrasi Pasien').getValue(5, 1), 0)
 
 Mobile.tap(findTestObject('ANC/Kecamatan/android.widget.FrameLayout6 Pilih Kecamatan'), 0)
 
-Mobile.setText(findTestObject('ANC/Kecamatan/android.widget.EditText0 - Cari Kecamatan. Ketik minimal 3 huruf'), 'keb', 
-    0)
+Mobile.setText(findTestObject('ANC/Kecamatan/android.widget.EditText0 - Cari Kecamatan. Ketik minimal 3 huruf'), findTestData(
+        'Registrasi Pasien').getValue(6, 1), 0)
 
 Mobile.tap(findTestObject('ANC/Kecamatan/android.widget.LinearLayout5HasilPencarianKecamatan'), 0)
 
@@ -79,14 +85,14 @@ Mobile.swipe(1000, 1200, 1000, 300)
 Mobile.tap(findTestObject('ANC/DesaKelurahan/android.widget.EditText2 - Pilih Desa'), 0)
 
 Mobile.setText(findTestObject('ANC/DesaKelurahan/android.widget.EditText0 - Cari DesaKelurahan. Ketik minimal 3 huruf'), 
-    'suka', 0)
+    findTestData('Registrasi Pasien').getValue(7, 1), 0)
 
 Mobile.tap(findTestObject('Registrasi bidan/HasilPencarianDesa1'), 0)
 
 Mobile.swipe(1000, 1200, 1000, 300)
 
 Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText3 - Alamat lengkap dengan nomor RTRW bila ada'), 
-    'Rumah gw sendiri', 0)
+    findTestData('Registrasi Pasien').getValue(8, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.Button0 DataIbu- Simpan'), 0)
 
