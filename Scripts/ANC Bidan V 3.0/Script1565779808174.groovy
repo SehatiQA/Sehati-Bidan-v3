@@ -17,7 +17,7 @@ Mobile.startApplication('C:\\Users\\Sehati-Adel\\Downloads\\bidan-app-universal-
 
 Mobile.tap(findTestObject('ANC/Beranda/android.view.ViewGroup6'), 0)
 
-Mobile.tap(findTestObject('ANC/Beranda/Ibu Aisyah'), 0)
+Mobile.tap(findTestObject('ANC/Beranda/ibu Ais'), 0)
 
 Mobile.tap(findTestObject('ANC/Date Picker/Date Picker Waktu Kunjungan'), 0)
 
@@ -25,33 +25,39 @@ Mobile.tap(findTestObject('ANC/Date Picker/Button Simpan Tanggal'), 0)
 
 Mobile.tap(findTestObject('ANC/Waktu Kunjungan/Button Selanjutnya Waktu Pemeriksaan'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keadaan Ibu - Ada'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Kesehatan - Ada (1)'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Chips Keadaan Ibu - Asma'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Chips Kesehatan - Malaria'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Chips Keadaan Ibu - Ketuban Pecah Dini'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Chips Kesehatan - Placenta Previa'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keadaan Ibu - Tidak'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Ibu Merokok - Tidak'), 0)
 
-Mobile.scrollToText('Selanjutnya', FailureHandling.STOP_ON_FAILURE)
+Mobile.swipe(886, 2000, 886, 1314)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keadaan Ibu - Ya'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Field Keluarga Pasien Ibu merokok'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keadaan Ibu - Tidak (1)'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keluarga Pasien Ibu Merokok - Tidak Ya'), 0)
 
-Mobile.tap(findTestObject('ANC/Keadaan Ibu/Button Selanjutnya Keadaan Ibu'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Keluarga Merokok - Ya (2)'), 0)
 
-Mobile.tap(findTestObject('ANC/Keluhan Ibu/Radio Button Keluhan Ibu - Ada'), 0)
+Mobile.swipe(886, 2000, 886, 1314)
 
-Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Demam Tinggi'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Radio Button Ibu minum alkohol - Tidak (1)'), 0)
 
-Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Diare'), 0)
+Mobile.tap(findTestObject('ANC/Keadaan Ibu/Button Selanjutnya - Kesehatan Ibu (1)'), 0)
 
-Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Mual muntah berlebihan'), 0)
+Mobile.tap(findTestObject('ANC/Keluhan Ibu/Radio Button Keluhan Ibu - Ada (1)'), 0)
 
-Mobile.scrollToText('Selanjutnya', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Keluar air ketuban ketika  36 minggu'), 0)
 
-Mobile.tap(findTestObject('ANC/Keluhan Ibu/Button Selanjutnya Keluhan Ibu'), 0)
+Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Eklampsia'), 0)
+
+Mobile.tap(findTestObject('ANC/Keluhan Ibu/Chips Keluhan Ibu - Keputihan tidak normal'), 0)
+
+not_run: Mobile.scrollToText('Selanjutnya', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('ANC/Keluhan Ibu/Button Selanjutnya Keluhan Ibu (1)'), 0)
 
 Mobile.tap(findTestObject('ANC/GPA/Field Gravida'), 0)
 
@@ -129,17 +135,19 @@ Mobile.setText(findTestObject('ANC/Antropometri/Set Text Lingkar Lengan Atas'), 
 
 Mobile.hideKeyboard()
 
-Mobile.scrollToText('Selanjutnya', FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.scrollToText('Selanjutnya', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('ANC/Antropometri/Radio Button Konjungtiva - Normal'), 0)
+Mobile.swipe(886, 2000, 886, 1314)
 
-Mobile.tap(findTestObject('ANC/Antropometri/Button Selanjutnya Antropometri'), 0)
+Mobile.tap(findTestObject('ANC/Antropometri/Radio Button Konjungtiva Mata - Normal (1)'), 0)
+
+Mobile.tap(findTestObject('ANC/Antropometri/Button Selanjutnya Antropometri (1)'), 0)
 
 Mobile.tap(findTestObject('ANC/Obstetri/Dropdown Pemeriksaan Abdomen'), 0)
 
 Mobile.tap(findTestObject('ANC/Obstetri/Set Dropdown Pemeriksaan Abdomen - Ballotemen Teraba'), 0)
 
-Mobile.tap(findTestObject('ANC/Obstetri/Radio Button Detak Jantung Janin - Terdengar'), 0)
+Mobile.tap(findTestObject('ANC/Obstetri/Radio Button Obstetri - Terdengar (2)'), 0)
 
 Mobile.tap(findTestObject('ANC/Obstetri/Field Detak Jantung Janin'), 0)
 
@@ -185,9 +193,13 @@ Mobile.tap(findTestObject('ANC/Date Picker/Button Simpan Tanggal'), 0)
 
 Mobile.tap(findTestObject('ANC/Ulasan/Button - Lihat Ulasan'), 0)
 
+Mobile.swipe(886, 2000, 886, 1280)
+
 Mobile.tap(findTestObject('ANC/Ulasan/CheckBox - Saya yakin dengan data yang sudah saya isi'), 0)
 
 Mobile.tap(findTestObject('ANC/Ulasan/Button - Hasil Kunjungan'), 0)
 
-Mobile.closeApplication()
+Mobile.delay(10)
+
+Mobile.checkElement(findTestObject(null), 0)
 

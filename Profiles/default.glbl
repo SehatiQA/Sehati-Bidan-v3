@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Sehati - Rudi\\Documents\\Sehati-Bidan-v3\\bidan-app-universal-debug-3.0.apk'</initValue>
+      <initValue>'C:\\Users\\Sehati-Adel\\Documents\\Sehati-Bidan-v3\\bidan-app-universal-debug-3.0.apk'</initValue>
       <name>appPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
