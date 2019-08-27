@@ -32,6 +32,17 @@ Mobile.delay(1)
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/section_Lab'), 0)
 
 Mobile.delay(1)
+def a = Mobile.verifyElementExist(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus1'), 0)
+int b = 3;
+for (int i=0;i<b;i++)
+
+if (a == true) {
+	Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus1'), 0)
+}
+
+//else {
+//	Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section_TambahPemeriksaanLab'), 0)
+//}
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section_TambahPemeriksaanLab'), 0)
 
@@ -72,8 +83,6 @@ Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_pilihLab'), 0)
 
 Mobile.swipe(400, 1000, 400, 600)
-
-//Mobile.scrollToText('Lainnya')
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/option_Lainnya'), 0)
 
