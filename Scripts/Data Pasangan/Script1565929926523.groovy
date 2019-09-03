@@ -21,7 +21,7 @@ Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'
 
 Mobile.scrollToText('Riwayat alergi')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datapasangan'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datapasangan1'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/radiobutton_belumMenikah'), 0)
 
