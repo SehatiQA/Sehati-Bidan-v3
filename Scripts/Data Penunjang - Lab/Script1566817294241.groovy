@@ -17,21 +17,21 @@ import org.junit.After
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.delay(1)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 
 Mobile.scrollToText('Lihat data penunjang')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang1'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/section_Lab'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 def a = Mobile.verifyElementExist(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus1'), 0)
 int b = 3;
 for (int i=0;i<b;i++)
@@ -126,6 +126,6 @@ Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus2'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus1'), 0)

@@ -17,15 +17,15 @@ import org.junit.After
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.delay(3)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
 
 Mobile.scrollToText('Lihat data penunjang')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang1'), 0)
 
-Mobile.delay(6)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/section_P4K'), 0)
 
@@ -37,7 +37,7 @@ Mobile.swipe(490, 969, 490, 843)
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
-Mobile.delay(2)
+Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/P4K/field_penolongPersalinan'), 0)
 

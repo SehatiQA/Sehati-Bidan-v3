@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'
 
 Mobile.scrollToText('Lihat data penunjang')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang1'), 0)
 
 Mobile.delay(3)
 

@@ -17,13 +17,13 @@ import org.junit.After
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.delay(3)
+Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
 
 Mobile.scrollToText('Lihat data penunjang')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang1'), 0)
 
 Mobile.delay(6)
 
@@ -33,18 +33,24 @@ Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/field_statusImunisasi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/option_statusImunisasi_TT0_pemberianImunisasi_TidakDiberikan'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/field_pemberianImunisasi'), 0)
+//Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/option_statusImunisasi_TT0_pemberianImunisasi_TidakDiberikan'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/option_statusPemberianImunisasi_TT1'), 0)
 
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/field_pemberianImunisasi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/option_statusPemberianImunisasi_TT2'), 0)
+
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/field_tanggalPemberianVaksin'), 0)
 
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 2days
+Mobile.swipe(443, 1414, 443, 1990) //change date, back date 2days
 
-Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/button_simpanTgl'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/checkbox_sayaYakin'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Imunisasi/button_simpan'), 0)
+
+Mobile.delay(5)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Data Penunjang/section_Imunisasi'), 0)
