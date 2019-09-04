@@ -52,13 +52,13 @@ Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/option_
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_tglPemeriksaan'), 0)
 
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
+Mobile.swipe(444, 1400, 444, 1950) //change date, back date 1days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/radioBt_negative'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai2'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section_TambahPemeriksaanLab'), 0)
 
@@ -68,31 +68,25 @@ Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/option_
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_tglPemeriksaan'), 0)
 
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
-
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
+Mobile.swipe(444, 1400, 444, 1950) //change date, back date 1days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/radioBt_positive'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai2'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section_TambahPemeriksaanLab'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_pilihLab'), 0)
 
-Mobile.swipe(400, 1000, 400, 600)
+Mobile.swipe(700, 2000, 700, 900)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/option_Lainnya'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_tglPemeriksaan'), 0)
 
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
-
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
-
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
+Mobile.swipe(444, 1400, 444, 1950) //change date, back date 1days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
@@ -104,21 +98,23 @@ Mobile.setText(findTestObject('Object Repository/Data Penunjang/Laboratorium/fie
 
 Mobile.setText(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_hasilPemeriksaan'), randomString, 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai2'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/section_selectedLab1'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/field_tglPemeriksaan'), 0)
 
-Mobile.swipe(210, 969, 210, 1055) //change date, back date 1days
+Mobile.swipe(444, 1400, 444, 1950) //change date, back date 1days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai2'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_hapus1'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/checkbox_sayaYakin'), 0)
+
+Mobile.scrollToText('Selesai')
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/Laboratorium/button_selesai'), 0)
 
