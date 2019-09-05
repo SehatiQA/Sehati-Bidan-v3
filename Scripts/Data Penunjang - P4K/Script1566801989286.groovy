@@ -33,7 +33,7 @@ Mobile.delay(4)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/P4K/field_tanggalPemeriksaan'), 0)
 
-Mobile.swipe(490, 969, 490, 843)
+Mobile.swipe(444, 1400, 444, 1950) //change date, back date 1days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 
@@ -87,8 +87,10 @@ String charset = ('a'..'z').join()
 Integer length = 5
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
 
-Mobile.setText(findTestObject('Object Repository/Data Penunjang/P4K/field_namaPendonor'), randomString, 0)
+Mobile.setText(findTestObject('Object Repository/Data Penunjang/P4K/field_namaPendonor1'), randomString, 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Penunjang/P4K/checkbox_sayaYakin'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Penunjang/P4K/checkbox_sayaYakin1'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/P4K/button_simpan'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Data Penunjang/section_P4K'), 0)
