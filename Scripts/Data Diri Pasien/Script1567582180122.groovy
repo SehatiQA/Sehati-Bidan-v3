@@ -12,77 +12,147 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.junit.After
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.tap(findTestObject('Data Diri Pasien/list_Pasien'), 0)
+Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
 
-Mobile.scrollToText('Riwayat Alergi', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Riwayat Alergi')
 
-not_run: Mobile.swipe(395, 1314, 395, 2000)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datadiri'), 0)
 
-not_run: Mobile.swipe(886, 2000, 886, 1314)
+Mobile.delay(3)
 
-Mobile.tap(findTestObject('Data Diri Pasien/tap_datadiri'), 0)
+String charset = ('a'..'z').join()
+Integer length = 4
+String randomString = RandomStringUtils.random(length, charset.toCharArray())
 
-Mobile.tap(findTestObject('Data Diri Pasien/field_name'), 0)
+Mobile.setText(findTestObject('Data Diri Pasien/field/field_name2'), 'ibu '+randomString, 0)
 
-Mobile.clearText(findTestObject('Data Diri Pasien/field_name'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_tglLahir'), 0)
 
-Mobile.setText(findTestObject('Data Diri Pasien/android.widget.EditText0 - Seno'), 'Berber', 0)
+Mobile.swipe(957, 1500, 957, 1800)
 
-Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/button_simpanTgl'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+String charsets = ('1'..'9').join()
+Integer lengths = 8
+Integer lengthss = 16
 
-Mobile.tap(findTestObject('Data Diri Pasien/tap_tanggallahir'), 0)
+String randomktp = RandomStringUtils.random(lengthss, charsets.toCharArray())
 
-not_run: Mobile.swipe(395, 1314, 395, 2000)
+Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_ktp'), randomktp, 0)
 
-not_run: Mobile.swipe(886, 2000, 886, 1314)
+String randomphone = RandomStringUtils.random(lengths, charsets.toCharArray())
 
-not_run: Mobile.tap(findTestObject('Data Diri Pasien/android.widget.EditText1'), 0)
+Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_phoneNumber'), '0812'+randomphone, 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/tap - Simpan TTL'), 0)
+Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_email'), randomString+'@mailinator.com', 0)
 
-//Mobile.tap(findTestObject('Data Diri Pasien/tap_nohp1'), 0)
-Mobile.setText(findTestObject('Data Diri Pasien/tap_nohp1'), '0819283746587', 0)
+Mobile.scrollToText('Golongan Darah')	
 
-not_run: Mobile.scrollToText('Pendidikan Terakhir', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_goldar2'), 0)
 
-not_run: Mobile.swipe(395, 1314, 395, 2000)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_goldar_a'), 0)
 
-Mobile.swipe(886, 2000, 886, 1314)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_goldar2'), 0)
 
-not_run: Mobile.tap(findTestObject('Data Diri Pasien/tap_email3'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_goldar_b'), 0)
 
-Mobile.setText(findTestObject('Data Diri Pasien/tap_email3'), 'bertania@mailinator.com', 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_goldar2'), 0)
 
-not_run: Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_goldar_ab'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/tap goldar 3'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_goldar2'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/tap_B'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_goldar_o'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/field_agama'), 0)
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
 
-not_run: Mobile.swipe(395, 1314, 395, 2000)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_buddha'), 0)
 
-not_run: Mobile.swipe(886, 1314, 886, 2000)
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/android.widget.TextView1 - Islam'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_hindu'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/field_edukasi'), 0)
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/android.widget.TextView6 - D2'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_islam'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/field_pekerjaan'), 0)
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/android.widget.TextView1 - Ibu Rumah Tangga'), 0)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_katolik'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/android.widget.Button0 - Simpan (1)'), 0)
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_konghucu'), 0)
+
+Mobile.tap(findTestObject('Data Diri Pasien/field/field_agama2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/opt_agama_protestan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_tidaksekolah'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_sd'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_smp'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_sma'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_d1'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_d2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_pendidikanterakhir2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_d3'), 0)
+
+Mobile.scrollToText('Simpan')
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_IRT'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_buruh'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_pegawaikantoran'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_pegawaiprofesional'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_pekerjakasar'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_petani'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_wirausaha'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/button_simpan'), 0)
+
+Mobile.delay(5)
 
 Mobile.closeApplication()
-
