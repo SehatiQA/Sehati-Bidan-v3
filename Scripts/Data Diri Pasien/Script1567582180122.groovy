@@ -17,6 +17,8 @@ import org.junit.After
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
+Mobile.delay(5)
+
 Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
 
 Mobile.scrollToText('Riwayat Alergi')
@@ -33,6 +35,8 @@ Mobile.setText(findTestObject('Data Diri Pasien/field/field_name2'), 'ibu '+rand
 
 Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_tglLahir'), 0)
 
+Mobile.delay(2)
+
 Mobile.swipe(957, 1500, 957, 1800)
 
 Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/button_simpanTgl'), 0)
@@ -46,7 +50,7 @@ String randomktp = RandomStringUtils.random(lengthss, charsets.toCharArray())
 Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_ktp'), randomktp, 0)
 
 String randomphone = RandomStringUtils.random(lengths, charsets.toCharArray())
-
+	
 Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_phoneNumber'), '0812'+randomphone, 0)
 
 Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_email'), randomString+'@mailinator.com', 0)
