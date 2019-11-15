@@ -16,7 +16,13 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
+Mobile.tap(findTestObject('Object Repository/Home/Menu Burger'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Menu HamBurger/PasienIbu'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ANC/List Ibu ANC/list1'), 0)
+
+Mobile.delay(3)
 
 Mobile.scrollToText('Riwayat alergi')
 
@@ -39,3 +45,5 @@ Mobile.setText(findTestObject('Object Repository/Riwayat Alergi/field_alergiMaka
 Mobile.setText(findTestObject('Object Repository/Riwayat Alergi/field_alergiLainnya'), randomString, 0)
 
 Mobile.tap(findTestObject('Object Repository/Riwayat Alergi/button_simpan'), 0)
+
+String text= Mobile.getAttribute(findTestObject('Object Repository/Riwayat Alergi/field_alergiObat'), 'text', 6) 
