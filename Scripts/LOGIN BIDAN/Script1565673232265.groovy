@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.appPath, true)
 
-Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/android.widget.Button0 - Oke mengerti'), 0)
+Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/button_mengerti'), 0)
 
 Mobile.delay(2)
 
@@ -27,3 +27,6 @@ Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_password'), G
 
 Mobile.tap(findTestObject('LOGIN BIDAN/android.widget.Button0 - MASUK'), 0)
 
+Mobile.delay(5)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Home/section_asuhanKehamilan'), 0)
