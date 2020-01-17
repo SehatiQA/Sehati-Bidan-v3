@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and @instance = '2']</value>
+         <value>//*[@class = 'android.widget.TextView' and @instance = '2' and (text() = 'ANC' or . = 'ANC')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,11 +27,11 @@
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kehamilan</value>
+      <value>ANC</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

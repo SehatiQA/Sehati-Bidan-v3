@@ -16,13 +16,17 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
+Mobile.tap(findTestObject('Object Repository/Home/Menu Burger'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Menu HamBurger/PasienIbu'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ANC/List Ibu ANC/list1'), 0)
+
+Mobile.delay(3)
 
 Mobile.scrollToText('Riwayat alergi')
 
 Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_riwayatKontrasepsi'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Riwayat Kontrasepsi/button_hapus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Riwayat Kontrasepsi/FAB_plusicon'), 0)
 
@@ -47,3 +51,9 @@ String randomString2 = RandomStringUtils.random(length2, charset2.toCharArray())
 Mobile.setText(findTestObject('Object Repository/Riwayat Kontrasepsi/field_lamapemakaian'), randomString2, 0)
 
 Mobile.tap(findTestObject('Object Repository/Riwayat Kontrasepsi/button_simpan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Riwayat Kontrasepsi/button_hapus'), 0)
+
+//def message = Mobile.getText(findTestObject('Object Repository/Riwayat Kontrasepsi/text_selectedKontrasepsi'), 9)
+//
+//Mobile.verifyNotMatch(message, 'Kondom', true)

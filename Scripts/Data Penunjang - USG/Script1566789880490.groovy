@@ -33,7 +33,7 @@ Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Data Penunjang/USG/field_tanggalPemeriksaan'), 0)
 
-Mobile.swipe(210, 805, 210, 1155)
+Mobile.swipe(443, 1414, 443, 1990) //change date, back date 2days
 
 Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
 

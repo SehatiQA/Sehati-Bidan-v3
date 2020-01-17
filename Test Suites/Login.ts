@@ -14,6 +14,6 @@
       <guid>d88a12f4-b54e-48a2-b5b1-a429e8da32ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LOGIN BIDAN</testCaseId>
+      <testCaseId>Test Cases/Login_25</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

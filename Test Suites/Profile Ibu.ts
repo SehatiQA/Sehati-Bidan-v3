@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Riwayat Alergi</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f9d44fca-e162-4fc4-b43a-926da3491780</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Riwayat Kontrasepsi</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
