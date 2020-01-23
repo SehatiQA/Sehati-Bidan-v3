@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi pengguna dialihkan ke halaman beranda ketika pengguna yang sudah memiliki data tempat pelayanan melakukan login</description>
+   <description>Verifikasi pengguna dialihkan ke halaman Lupa Kata Sandi ketika pengguna menekan text link Lupa kata sandi</description>
    <name>Login_19</name>
    <tag></tag>
    <comment></comment>
