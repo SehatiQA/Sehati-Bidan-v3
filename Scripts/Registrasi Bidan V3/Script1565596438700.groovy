@@ -20,9 +20,9 @@ Mobile.startApplication('C:\\Users\\Sehati - Nita\\.jenkins\\workspace\\Bidan_v.
 
 Mobile.tap(findTestObject('Registrasi bidan/android.widget.Button0 - Oke mengerti'), 0)
 
-Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText1 - Tulis nama tanpa Bidan Bd'), 'karina', 0)
+Mobile.setText(findTestObject('Registrasi bidan/field_namaBidan'), 'karina', 0)
 
-Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText2 - Nomor yang bisa nerima SMS'), '081200000010', 
+Mobile.setText(findTestObject('Registrasi bidan/field_NoHp'), '081200000010', 
     0)
 
 Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText3 - Buat kata sandi yang mudah diingat'), 'qwerty', 
@@ -30,5 +30,5 @@ Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText3 - Buat 
 
 Mobile.tap(findTestObject('Registrasi bidan/android.widget.ImageButton0'), 0)
 
-Mobile.tap(findTestObject('Registrasi bidan/android.widget.Button0 - Daftar'), 0)
+Mobile.tap(findTestObject('Registrasi bidan/button_daftar'), 0)
 

@@ -22,13 +22,13 @@ not_run: Mobile.delay(2)
 
 not_run: Mobile.tapAtPosition(1000, 2117)
 
-not_run: Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText2 - Nomor yang bisa nerima SMS'), '085274037512', 
+not_run: Mobile.setText(findTestObject('Registrasi bidan/field_NoHp'), '085274037512', 
     0)
 
 not_run: Mobile.setText(findTestObject('Registrasi bidan/android.widget.EditText3 - Buat kata sandi yang mudah diingat'), 
     '037512', 0)
 
-not_run: Mobile.tap(findTestObject('LOGIN BIDAN/android.widget.Button0 - MASUK'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/btn_masuk'), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.view.ViewGroup20RegistrasiPasien'), 0)
 
