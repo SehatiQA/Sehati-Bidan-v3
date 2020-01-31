@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan di navigasikan ke halaman Legalitas Bidan ketika user men-tap button Legalitas Bidan</description>
+   <name>ProfileBidan_29</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>297a5560-0169-4877-a3eb-34602ce7abc2</testCaseGuid>
+</TestCaseEntity>

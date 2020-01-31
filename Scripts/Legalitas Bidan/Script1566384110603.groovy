@@ -22,7 +22,7 @@ Mobile.tap(findTestObject('Object Repository/Menu HamBurger/AkunSaya'), 0)
 
 Mobile.scrollToText('Simpan')
 
-Mobile.tap(findTestObject('Object Repository/ProfilBidan/LegalitasBidan'), 0)
+Mobile.tap(findTestObject('Object Repository/ProfilBidan/section_LegalitasBidan'), 0)
 
 String charset = ('1'..'9').join()
 Integer length = 16
