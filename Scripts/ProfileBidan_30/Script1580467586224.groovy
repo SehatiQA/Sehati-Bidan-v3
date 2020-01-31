@@ -37,8 +37,8 @@ Mobile.delay(1)
 
 Mobile.scrollToText('LEGALITAS DAN PELAYANAN')
 
-Mobile.tap(findTestObject('Object Repository/ProfilBidan/section_LegalitasBidan'), 0)
+Mobile.tap(findTestObject('Object Repository/ProfilBidan/section_TempatPelayanan'), 0)
 
 Mobile.delay(1)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Legalitas Bidan/field_STR'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Tempat Pelayanan/heading_tempatPelayanan'), 0)
