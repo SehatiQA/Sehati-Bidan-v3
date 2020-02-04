@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi pengguna akan di navigasikan ke halaman Legalitas Bidan ketika user men-tap button Legalitas Bidan</description>
+   <description>Verifikasi peringatan dialog 'Anda akan keluar. Simpan data?' akan tampil ketika user tap text link Legalitas Bidan</description>
    <name>ProfileBidan_35</name>
    <tag></tag>
    <comment></comment>

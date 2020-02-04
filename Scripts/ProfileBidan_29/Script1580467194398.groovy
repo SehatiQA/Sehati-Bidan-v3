@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('Object Repository/Menu HamBurger/AkunSaya'), 0)
 
 Mobile.delay(1)
 
-Mobile.scrollToText('LEGALITAS DAN PELAYANAN')
+Mobile.scrollToText('Tempat Pelayanan')
 
 Mobile.tap(findTestObject('Object Repository/ProfilBidan/section_LegalitasBidan'), 0)
 

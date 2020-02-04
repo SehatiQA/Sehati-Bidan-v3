@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi pengguna dialihkan ke halaman Lupa Kata Sandi ketika pengguna menekan text link Lupa kata sandi</description>
+   <description>Verifikasi pesan error tampil ketika pengguna menghapus seluruh nama pada field nama lengkap dan tap field lain</description>
    <name>ProfileBidan_15</name>
    <tag></tag>
    <comment></comment>
