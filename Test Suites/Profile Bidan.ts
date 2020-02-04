@@ -46,4 +46,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProfileBidan_35</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4ce605bf-f5fd-44d4-9383-9f2c53a9a867</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProfileBidan_42</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
