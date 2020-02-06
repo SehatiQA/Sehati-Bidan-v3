@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi status 'Belum Terverifikasi' tampil dengan text warna merah apabila sehati belum memverifikasi STR bidan bersangkutan</description>
+   <name>ProfileBidan_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ef7daf1-7ae5-4eb7-9336-8b105dab78a3</testCaseGuid>
+</TestCaseEntity>
