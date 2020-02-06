@@ -10,43 +10,40 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUIs
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
+//Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/button_mengerti'), 0)
+//
+//Mobile.delay(2)
+//
+//Mobile.tapAtPosition(1000, 2117)
+//
+//Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), GlobalVariable.phone, 0)
+//
+//Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_password'), GlobalVariable.password, 0)
+//
+//Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/btn_masuk'), 0)
+
+Mobile.delay(2)
+
 Mobile.tap(findTestObject('Object Repository/Home/Menu Burger'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Menu HamBurger/AkunSaya'), 0)
 
+Mobile.delay(1)
+
 String charset = ('a'..'z').join()
-Integer length = 7
+Integer length = 4
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
 
-Mobile.setText(findTestObject('Object Repository/ProfilBidan/field_nama'), randomString, 0)
+Mobile.setText(findTestObject('Object Repository/ProfilBidan/field_email'), randomString+'@mailinator.com', 0)
 
-Mobile.setText(findTestObject('Object Repository/ProfilBidan/field_email'), randomString + '@mailinator.com', 0)
+Mobile.scrollToText('SIMPAN')
 
-Mobile.tap(findTestObject('Object Repository/ProfilBidan/field_tanggalLahir'), 0)
-
-Mobile.swipe(1000, 1414, 1000, 2000)
-Mobile.swipe(1000, 1414, 1000, 2000)
-Mobile.swipe(1000, 1414, 1000, 2000)
-Mobile.swipe(1000, 1414, 1000, 2000)
-
-Mobile.tap(findTestObject('Object Repository/Data Pasangan/button_simpanTgl'), 0)
-
-Mobile.scrollToText('Simpan')
+Mobile.verifyElementExist(findTestObject('Object Repository/ProfilBidan/button_simpan_enabled'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ProfilBidan/button_simpan_enabled'), 0)
-
-Mobile.delay(2)
-
-Mobile.scrollToText('Nama Lengkap')
-
-String charset2 = ('1'..'9').join()
-Integer length2 = 8
-String randomString2 = RandomStringUtils.random(length2, charset2.toCharArray())
-
-Mobile.setText(findTestObject('Object Repository/ProfilBidan/field_noHp'), '0812' + randomString2, 0)
