@@ -34,10 +34,10 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.view.ViewGroup20Registr
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ibu'), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText0 - Tulis nama lengkap Ibu'), findTestData('Registrasi Pasien').getValue(
+Mobile.setText(findTestObject('Registrasi Pasien/field_namaIbu'), findTestData('Registrasi Pasien').getValue(
         1, 1), 0)
 
-Mobile.setText(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText1 - Masukkan no KTP'), findTestData('Registrasi Pasien').getValue(
+Mobile.setText(findTestObject('Registrasi Pasien/field_KTP'), findTestData('Registrasi Pasien').getValue(
         2, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText2tanggalLahirIbu - Contoh 1 January 1970'), 0)
