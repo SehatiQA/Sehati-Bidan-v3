@@ -16,7 +16,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-//Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/button_mengerti'), 0)
+//Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
 //
 //Mobile.delay(2)
 //
