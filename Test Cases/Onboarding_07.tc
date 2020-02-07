@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan title dan 3 konten utama pada onboarding screen yang berisikan icon, heading, dan paragraf tampil</description>
+   <name>Onboarding_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1a90128-a680-40e2-a828-3a58679a41ff</testCaseGuid>
+</TestCaseEntity>
