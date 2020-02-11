@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan dialihkan ke halaman Registrasi pasien ibu ketika pengguna tap icon Ibu</description>
+   <name>RegisterPasien_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b01c254-9dce-4199-b456-7626dc070af9</testCaseGuid>
+</TestCaseEntity>

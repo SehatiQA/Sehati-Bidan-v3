@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('android.widget.TextView1 - Ibu'), 0)
 Mobile.setText(findTestObject('Registrasi Pasien/field_namaIbu'), findTestData('Registrasi Pasien').getValue(
         1, 1), 0)
 
-Mobile.setText(findTestObject('Registrasi Pasien/field_KTP'), findTestData('Registrasi Pasien').getValue(
+Mobile.setText(findTestObject('Object Repository/Registrasi Pasien/field_noKTP'), findTestData('Registrasi Pasien').getValue(
         2, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.EditText2tanggalLahirIbu - Contoh 1 January 1970'), 0)
