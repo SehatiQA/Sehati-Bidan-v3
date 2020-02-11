@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.view.ViewGroup20Registr
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ibu'), 0)
 
-Mobile.setText(findTestObject('Registrasi Pasien/field_namaIbu'), findTestData('Registrasi Pasien').getValue(
+Mobile.setText(findTestObject('Registrasi Pasien/field_nameIbu'), findTestData('Registrasi Pasien').getValue(
         1, 1), 0)
 
 Mobile.setText(findTestObject('Object Repository/Registrasi Pasien/field_noKTP'), findTestData('Registrasi Pasien').getValue(
@@ -50,9 +50,9 @@ Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.Button0 - Simpan
 
 Mobile.swipe(1000, 1200, 1000, 300)
 
-Mobile.tap(findTestObject('ANC/Provinsi/android.widget.TextView7 - Pilih Provinsi'), 0)
+Mobile.tap(findTestObject('Registrasi Pasien/field_Provinsi'), 0)
 
-Mobile.setText(findTestObject('ANC/Provinsi/android.widget.EditText0 - Cari Provinsi. Ketik minimal 3 huruf'), findTestData(
+Mobile.setText(findTestObject('Registrasi Pasien/cari/field_cariProvinsi'), findTestData(
         'Registrasi Pasien').getValue(3, 1), 0)
 
 Mobile.tap(findTestObject('ANC/REGISTRASI PASIEN/android.widget.LinearLayout5Prov1'), 0)

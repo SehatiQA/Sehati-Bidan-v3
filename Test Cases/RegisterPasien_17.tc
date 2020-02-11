@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi button selanjutnya enable ketika pengguna sudah mengisi mandatory field</description>
+   <name>RegisterPasien_17</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1109827b-bd2b-46ca-81f0-4dcf0e4e1d67</testCaseGuid>
+</TestCaseEntity>

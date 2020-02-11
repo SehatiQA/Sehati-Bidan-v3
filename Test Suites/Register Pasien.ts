@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/RegisterPasien_13</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d2896fc6-0278-41c1-a723-30951b23a24d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RegisterPasien_17</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
