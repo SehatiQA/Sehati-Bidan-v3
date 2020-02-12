@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat tap kelurahan field ketika belum set kecamatan sebelumnya</description>
+   <name>RegisterPasien_46</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc984ced-ad55-44cb-9e73-05e0ffcef2de</testCaseGuid>
+</TestCaseEntity>
