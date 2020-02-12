@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dapat menginputkan freetext pada field alamat</description>
+   <name>RegisterPasien_48</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7543b212-4960-4cb6-bf1e-a1d224b65ba6</testCaseGuid>
+</TestCaseEntity>
