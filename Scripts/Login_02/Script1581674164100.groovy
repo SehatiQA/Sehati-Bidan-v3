@@ -21,12 +21,10 @@ Mobile.delay(2)
 
 Mobile.tapAtPosition(1000, 2117)
 
-Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), GlobalVariable.phone, 0)
+Mobile.delay(1)
 
-Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_password'), GlobalVariable.password, 0)
+String a = 'Indonesia'
 
-Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/btn_masuk'), 0)
+b = Mobile.getText(findTestObject('Object Repository/LOGIN BIDAN/field_negara'), 0)
 
-Mobile.delay(3)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Home/Menu Burger'), 0)
+Mobile.verifyEqual(a, b)
