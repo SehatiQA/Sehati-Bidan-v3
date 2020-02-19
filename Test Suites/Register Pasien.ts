@@ -47,6 +47,12 @@
       <testCaseId>Test Cases/RegisterPasien_35</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>24cfc270-52c0-441f-ab56-de3a9b8e075b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RegisterPasien_38</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>89d2f804-29d4-4ed1-886a-665640db4efb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
