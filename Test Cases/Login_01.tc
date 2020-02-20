@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat  memilih negara pada negara dropdown (default indonesia)</description>
+   <name>Login_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6ff3665-9b52-45b6-8646-320e40bcbec0</testCaseGuid>
+</TestCaseEntity>
