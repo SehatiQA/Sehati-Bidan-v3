@@ -14,21 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-Mobile.startApplication(GlobalVariable.appPath, false)
+Mobile.callTestCase(findTestCase('Login_25'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
-//
-//Mobile.delay(2)
-//
-//Mobile.tapAtPosition(1000, 2117)
-//
-//Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), GlobalVariable.phone, 0)
-//
-//Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_password'), GlobalVariable.password, 0)
-//
-//Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/btn_masuk'), 0)
-
-Mobile.delay(2)
+Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/Home/section_registrasiPasien'), 0)
 
