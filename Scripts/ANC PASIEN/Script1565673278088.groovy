@@ -25,7 +25,7 @@ not_run: Mobile.tap(findTestObject('ANC/Waktu Kunjungan/android.widget.EditText0
 
 not_run: Mobile.swipe(395, 1314, 395, 2000)
 
-not_run: Mobile.tap(findTestObject('ANC/Date Picker/Button Simpan Tanggal'), 0)
+not_run: Mobile.tap(findTestObject('Date Picker/Button Simpan Tanggal'), 0)
 
 Mobile.tap(findTestObject('ANC/android.widget.Button0 - SelanjutnyaWaktuPemeriksaan'), 0)
 

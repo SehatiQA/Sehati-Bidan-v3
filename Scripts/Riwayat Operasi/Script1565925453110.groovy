@@ -16,7 +16,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 Mobile.startApplication(GlobalVariable.appPath, false)
 
-Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.scrollToText('Riwayat alergi')
 

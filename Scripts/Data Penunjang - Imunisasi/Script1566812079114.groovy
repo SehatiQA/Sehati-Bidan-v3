@@ -19,7 +19,7 @@ Mobile.startApplication(GlobalVariable.appPath, false)
 
 Mobile.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/Home/list_pasien1_jadwalkunjunganA'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.scrollToText('Lihat data penunjang')
 
