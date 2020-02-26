@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi buttomsheet WA akan tertutup ketika pengguna tap x button atau tap pada area luar buttomsheet</description>
+   <name>QuickFix_Registration_10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecc65082-45ec-485e-8ac4-d2b6d7505b98</testCaseGuid>
+</TestCaseEntity>
