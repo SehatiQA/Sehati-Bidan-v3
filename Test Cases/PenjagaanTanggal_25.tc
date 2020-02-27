@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat menginput tanggal kunjungan (ANC) lebih dari hari ini</description>
+   <name>PenjagaanTanggal_25</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e38d576c-2de0-4349-8050-e99af60344c5</testCaseGuid>
+</TestCaseEntity>
