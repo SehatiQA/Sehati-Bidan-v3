@@ -17,28 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login_25'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CatatanIbuDatang_21'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('Home/Button INC Beranda'), 0)
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/INC/section_catatanIbuDatang'), 0)
-
-Mobile.tap(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
-
-Mobile.tap(findTestObject('Date Picker/SimpanWaktuPemeriksaan'), 0)
-
-a = Mobile.getText(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
-
-Mobile.tap(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
-
-Mobile.swipe(439, 1743, 439, 1300)
+Mobile.tap(findTestObject('Object Repository/List Pasien/tab_bersalin'), 0)
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Date Picker/SimpanWaktuPemeriksaan'), 0)
+Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
 Mobile.delay(1)
 
-b = Mobile.getText(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_catatanIbuDatang'), 0)
 
-Mobile.verifyEqual(a, b)
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_observasi'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_catatanPersalinan'), 0)
