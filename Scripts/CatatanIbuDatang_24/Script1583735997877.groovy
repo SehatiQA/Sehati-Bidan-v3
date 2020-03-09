@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('CatatanIbuDatang_21'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/INC/section_observasi'), 0)
+Mobile.tap(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Observasi/option_incObservasi_30min'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/Data Penunjang/option_Lab'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Observasi/option_incObservasi_4jam'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/Data Penunjang/option_USG'), 0)

@@ -15,10 +15,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CatatanIbuDatang_21'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login_25'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/INC/section_observasi'), 0)
+Mobile.delay(2)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Observasi/option_incObservasi_30min'), 0)
+Mobile.tap(findTestObject('Home/Button INC Beranda'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Observasi/option_incObservasi_4jam'), 0)
+Mobile.delay(1)
+
+Mobile.tap(findTestObject('Object Repository/List Pasien/tab_hamil'), 0)
+
+Mobile.delay(1)
+
+Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
+
+Mobile.delay(1)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
+
+Mobile.tap(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
+
+Mobile.verifyElementNotExist(findTestObject('Object Repository/INC/Data Penunjang/option_Lab'), 0)
+
+Mobile.verifyElementNotExist(findTestObject('Object Repository/INC/Data Penunjang/option_USG'), 0)
