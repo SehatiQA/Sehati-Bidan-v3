@@ -17,7 +17,7 @@ Mobile.startApplication(GlobalVariable.appPath, true)
 
 Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
 
-Mobile.delay(2)
+Mobile.delay(3)
 
 Mobile.tapAtPosition(1000, 2117)
 
