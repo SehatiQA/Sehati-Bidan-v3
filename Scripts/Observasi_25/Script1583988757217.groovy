@@ -25,7 +25,7 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), 'Capt Oleng Ix', 0)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), GlobalVariable.kehamilankecil, 0)
 
 Mobile.delay(1)
 

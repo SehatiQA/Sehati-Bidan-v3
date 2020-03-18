@@ -62,7 +62,7 @@
       <guid>2c68bfeb-3fd5-4d28-a800-14bfebf670db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_26</testCaseId>
+      <testCaseId>Test Cases/Login_26 (Hold)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>39ede1e8-c5e9-4ec7-843e-75239de4a7a8</guid>

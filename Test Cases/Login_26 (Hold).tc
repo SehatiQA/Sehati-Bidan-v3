@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dialihkan ke halaman OTP ketika pengguna tap tombol masuk tetapi belum melakukan OTP pada halaman registrasi
+
+on hold karena balikan 'Mohon maaf akun anda tidak dapat login saat ini. Harap hubungi admin.' (quickfix registration impact)</description>
+   <name>Login_26 (Hold)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9d585f4-310d-4989-8df4-77138d38c7d6</testCaseGuid>
+</TestCaseEntity>

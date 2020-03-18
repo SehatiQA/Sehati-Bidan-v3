@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi field denyut nadi hanya dapat diinput oleh angka minimal 0 dan maksimal 150</description>
+   <description>Verifikasi user tidak bisa memilih jam setelah hari ini</description>
    <name>Observasi_25</name>
    <tag></tag>
    <comment></comment>

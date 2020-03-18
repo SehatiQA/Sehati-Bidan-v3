@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi field &quot;Jumlah Kontraksi&quot; dapat diinput oleh angka minimal 0 dan maksimal 20</description>
+   <name>Observasi_28</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f60d7845-de95-4329-8f33-4eae9d1e2dfb</testCaseGuid>
+</TestCaseEntity>

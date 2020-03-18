@@ -23,18 +23,30 @@ Mobile.tap(findTestObject('Home/Button INC Beranda'), 0)
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/List Pasien/tab_bersalin'), 0)
+Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.delay(2)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), GlobalVariable.kehamilankecil, 0)
+
+Mobile.delay(1)
 
 Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
 Mobile.delay(1)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/INC/section_observasi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/INC/section_dataPenunjang'), 0)
+Mobile.tap(findTestObject('Object Repository/INC/Observasi/option_incObservasi_30min'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Data Penunjang/option_Lab'), 0)
+Mobile.tap(findTestObject('Object Repository/INC/Observasi/Tanggal Kunjungan/field_tanggalPemeriksaanObservasi'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/INC/Data Penunjang/option_USG'), 0)
+Mobile.tap(findTestObject('Object Repository/Date Picker/SimpanWaktuPemeriksaan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/INC/Observasi/Tanggal Kunjungan/field_jamPemeriksaanObservasi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Date Picker/SimpanWaktuPemeriksaan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/INC/Observasi/button_selanjutnya'), 0)
+
+Mobile.setText(findTestObject('Object Repository/INC/Observasi/Tanda Vital/field_jumlahKontraksi'), '21', 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/INC/Observasi/Error/error_kontraksi_more_20'), 0)
