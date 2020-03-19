@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Sehati-Adel\\Documents\\Sehati-Bidan-v3\\bidan-app-universal-debug-3.0.apk'</initValue>
+      <initValue>'apknyaquickfix-stage-aslina.apk'</initValue>
       <name>appPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -18,5 +18,10 @@
       <description></description>
       <initValue>'qwerty'</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Automation Kehamilan Minggu Kecil'</initValue>
+      <name>kehamilankecil</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

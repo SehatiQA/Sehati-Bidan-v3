@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verifikasi pengguna dialihkan ke halaman Registrasi ketika pengguna menekan text link Daftar disini</description>
-   <name>Login_20</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b2829c09-10b5-4a5e-bf4b-64cdebeadae0</testCaseGuid>
-</TestCaseEntity>

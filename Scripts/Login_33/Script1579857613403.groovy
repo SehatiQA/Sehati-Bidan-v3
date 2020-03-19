@@ -15,11 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.appPath, true)
 
-Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
-
 Mobile.delay(2)
 
-Mobile.tapAtPosition(1000, 2117)
+Mobile.tap(findTestObject('Object Repository/Welcome Screen/button_saya_sudah_punya_akun'), 0)
+
+Mobile.delay(1)
 
 Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), GlobalVariable.phone, 0)
 
@@ -86,4 +86,4 @@ Mobile.tap(findTestObject('Object Repository/Home/Menu Burger'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Menu HamBurger/PasienIbu'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/LOGIN BIDAN/hyperlink_lupaKatasandi'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Welcome Screen/screentitle'), 0)

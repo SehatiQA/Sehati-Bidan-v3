@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.FrameLayout' and @instance = '6' and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/button_text']</value>
+         <value>//*[@resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/btn_login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>android.widget.FrameLayout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>instance</name>
       <type>Main</type>

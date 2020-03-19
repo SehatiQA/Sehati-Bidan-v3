@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.appPath, true)
 
-Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
-
 Mobile.delay(2)
 
-Mobile.tapAtPosition(1000, 2117)
+Mobile.tap(findTestObject('Object Repository/Welcome Screen/button_saya_sudah_punya_akun'), 0)
 
 Mobile.delay(1)
 
