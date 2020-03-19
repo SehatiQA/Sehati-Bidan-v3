@@ -15,11 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.appPath, true)
 
-Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
-
 Mobile.delay(2)
 
-Mobile.tapAtPosition(1000, 2117)
+Mobile.tap(findTestObject('Object Repository/Welcome Screen/button_saya_sudah_punya_akun'), 0)
+
+Mobile.delay(1)
 
 Mobile.setText(findTestObject('Object Repository/LOGIN BIDAN/field_nomor'), '081234567777', 0)
 
@@ -29,4 +29,4 @@ Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/btn_masuk'), 0)
 
 Mobile.delay(2)
 
-Mobile.verifyElementExist(findTestObject('LOGIN BIDAN/title_VerifikasiKeamanan(OTPS)'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Welcome Screen/buttomsheet_wa_tdk_ada/button_hubungi_sekarang'), 0)
