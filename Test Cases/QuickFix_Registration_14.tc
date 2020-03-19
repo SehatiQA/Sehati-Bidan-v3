@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi buttomsheet Terjadi Kesalahan akan tampil ketika pengguna lama (belum memiliki tempat pelayanan) melakukan login via lupa kata sandi</description>
+   <name>QuickFix_Registration_14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9ed71b2-71a7-4f20-adda-60102094aa97</testCaseGuid>
+</TestCaseEntity>
