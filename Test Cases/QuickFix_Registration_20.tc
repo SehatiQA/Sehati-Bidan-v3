@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi chevron akan tetap tampil pada section tempat pelayanan pada expanded hamburger menu untuk pengguna yang memiliki 2 tempat pelayanan</description>
+   <name>QuickFix_Registration_20</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79f823b4-f7a4-468d-9c8c-19778af5a328</testCaseGuid>
+</TestCaseEntity>
