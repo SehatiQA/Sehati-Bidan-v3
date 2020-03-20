@@ -52,4 +52,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/QuickFix_Registration_14</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ded03325-a476-4aeb-bb18-e74e6bd724c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuickFix_Registration_20</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
