@@ -13,17 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.appPath, true)
-
-Mobile.tap(findTestObject('Onboarding/button_mengerti'), 0)
-
-Mobile.delay(2)
-
-Mobile.tapAtPosition(1000, 2117)
-
-Mobile.delay(1)
-
-Mobile.tap(findTestObject('Object Repository/LOGIN BIDAN/hyperlink_lupaKatasandi'), 0)
+WebUI.callTestCase(findTestCase('Login_19'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(1)
 
