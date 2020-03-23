@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Verifikasi peringatan dialog 'Anda akan keluar. Simpan data?' akan tampil ketika user tap text link Legalitas Bidan</description>
-   <name>ProfileBidan_35</name>
+   <name>ProfileBidan_35 (will be deffered) - dialog simpan data</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>106005a3-3ddf-42c3-a437-6b10ba2c3700</testCaseGuid>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Verifikasi pesan error tampil ketika pengguna mengedit nama pada field nama lengkap dengan karakter kurang dari 2 karakter</description>
-   <name>ProfileBidan_16</name>
+   <name>ProfileBidan_16 (will be deffered) - nama bidan less 2 digit</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>65abd44f-8e90-4e6c-8efd-6c6906b565f0</testCaseGuid>

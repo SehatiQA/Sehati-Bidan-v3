@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description> Verifikasi button simpan enable ketika melakukan edit data (dengan cara menghapus sebagian isi dari field) setelah kembali dari halaman legalitas bidan / tempat pelayanan</description>
-   <name>ProfileBidan_55</name>
+   <name>ProfileBidan_55 (will be deffered) - button simpan enabled after edit field</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8a539456-8079-4150-94b3-d782374ed4ce</testCaseGuid>

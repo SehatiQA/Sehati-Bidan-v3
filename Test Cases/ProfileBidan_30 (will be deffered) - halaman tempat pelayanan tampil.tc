@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan di navigasikan ke halaman Tempat Pelayanan ketika user men-tap button Tempat Pelayanan</description>
+   <name>ProfileBidan_30 (will be deffered) - halaman tempat pelayanan tampil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f539658-0006-46b5-8b67-abc9fb03cbfa</testCaseGuid>
+</TestCaseEntity>
