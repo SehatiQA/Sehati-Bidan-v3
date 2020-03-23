@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi user dialihkan ke halaman tindakan - pilih obat jika sudah mengisi semua field dan menekan tombol selanjutnya</description>
+   <name>Observasi_41</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45310bfe-e104-415a-999e-1405a10a1164</testCaseGuid>
+</TestCaseEntity>
