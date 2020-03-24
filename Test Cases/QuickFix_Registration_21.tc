@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi informative text (STR user belum terverifikasi / area kuning) tidak akan tampil pada halaman kohort</description>
+   <name>QuickFix_Registration_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c8a222a-6c6f-40d7-8fee-883cc912ecda</testCaseGuid>
+</TestCaseEntity>

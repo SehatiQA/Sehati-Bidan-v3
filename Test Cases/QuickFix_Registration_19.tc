@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi tidak akan ada section + tambah tempat pelayanan pada expanded hamburger menu untuk user yang hanya memiliki 1 tempat pelayanan</description>
+   <name>QuickFix_Registration_19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f89e6122-6775-40ec-9856-f370aba95d99</testCaseGuid>
+</TestCaseEntity>

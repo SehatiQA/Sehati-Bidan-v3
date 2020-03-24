@@ -59,9 +59,21 @@
       <testCaseId>Test Cases/QuickFix_Registration_17</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>42271d99-9004-41fb-acdd-28621872fb62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuickFix_Registration_19</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ded03325-a476-4aeb-bb18-e74e6bd724c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/QuickFix_Registration_20</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9d76e9c-dd50-4196-bc23-843d15a394c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuickFix_Registration_21</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
