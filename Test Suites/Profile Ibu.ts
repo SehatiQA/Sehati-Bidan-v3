@@ -11,15 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>84cabf25-7c8d-4f71-aeda-355f2181f481</testSuiteGuid>
    <testCaseLink>
-      <guid>00925acf-cd45-446a-b762-871f2162b0d8</guid>
+      <guid>ac5b4373-7d85-49f1-b1ac-28c7c6e78cd3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Riwayat Alergi</testCaseId>
+      <testCaseId>Test Cases/ProfileIbu_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9d44fca-e162-4fc4-b43a-926da3491780</guid>
+      <guid>7acda9a1-28e0-4bea-bcd4-6765ef449276</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Riwayat Kontrasepsi</testCaseId>
+      <testCaseId>Test Cases/ProfileIbu_04</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
