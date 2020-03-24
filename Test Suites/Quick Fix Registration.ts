@@ -41,6 +41,12 @@
       <testCaseId>Test Cases/QuickFix_Registration_11</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>e272a78e-43b8-48a1-aa43-4395fd155df6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuickFix_Registration_12</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>1bfcc853-22d4-4867-8eee-35278dc6712a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
