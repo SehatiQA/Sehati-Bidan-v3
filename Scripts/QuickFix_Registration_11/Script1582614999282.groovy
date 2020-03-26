@@ -23,6 +23,6 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Welcome Screen/butto
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Welcome Screen/button_saya_mau_daftar'), 0)
 
-Mobile.tap(1100, 1750)
+Mobile.tapAtPosition(1100, 1750)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Welcome Screen/buttomsheet_wa_tdk_ada/native_dialer'), '081318600070')
