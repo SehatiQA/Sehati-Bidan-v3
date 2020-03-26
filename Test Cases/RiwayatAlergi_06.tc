@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi riwayat alergi yang diisi/edit tidak akan tersimpan ketika pengguna melakukan edit/isi namun tap back button</description>
+   <name>RiwayatAlergi_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56e5e38e-38f9-4c72-8481-1c25f858aa56</testCaseGuid>
+</TestCaseEntity>

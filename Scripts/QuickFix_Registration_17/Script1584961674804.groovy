@@ -151,11 +151,15 @@ sipb = parsedJson2.data.midwife_prop.sipb_number
 
 println(sipb)
 
-healthcare_name = parsedJson2.data.works.name
+String healthcare_name = parsedJson2.data.works.name
+
+healthcare_name = healthcare_name.replaceAll("[\\[\\]]", "");
 
 println(healthcare_name)
 
-healthcare_address = parsedJson2.data.works.address
+String healthcare_address = parsedJson2.data.works.address
+
+healthcare_address = healthcare_address.replaceAll("[\\[\\]]", "");
 
 println(healthcare_address)
 
@@ -186,3 +190,10 @@ Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ProfilBidan
 
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ProfilBidan/value_sipb'), 'text', sipb, 0)
 
+a = Mobile.getText(findTestObject('Object Repository/ProfilBidan/value_healthcarename'), 0)
+
+b = Mobile.getText(findTestObject('Object Repository/ProfilBidan/value_healthcareaddress'), 0)
+
+Mobile.verifyMatch(healthcare_name, a, false)
+
+Mobile.verifyMatch(healthcare_address, b, false)

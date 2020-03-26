@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dialihkan ke halaman Riwayat Alergi</description>
+   <name>RiwayatAlergi_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f5c2be2-3d7e-4d27-a99f-335af0fddd75</testCaseGuid>
+</TestCaseEntity>
