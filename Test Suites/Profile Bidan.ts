@@ -28,28 +28,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProfileBidan_06</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d900fec1-2d25-4635-a624-b41916b433d4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RiwayatAlergi_01</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>529e666c-37da-471f-9f7a-4a2cae14541c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RiwayatAlergi_03</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>50d9a53c-5d51-4bc6-89f6-90f2e2d6dd5b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RiwayatAlergi_05</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6bb6900e-4f51-47d8-9446-64a06663253b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RiwayatAlergi_06</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
