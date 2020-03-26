@@ -4,6 +4,12 @@
    <name>fab_tambah</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/mother_profile_fab']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>android.widget.ImageButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>instance</name>
       <type>Main</type>
@@ -25,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3:id/mother_profile_fab</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/mother_profile_fab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

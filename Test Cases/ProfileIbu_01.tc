@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan di navigasikan ke halaman profil ibu ketika pengguna tap nama ibu pada aplikasi</description>
+   <name>ProfileIbu_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a20ced5c-88ca-4a17-9e4e-dc306d8463d3</testCaseGuid>
+</TestCaseEntity>

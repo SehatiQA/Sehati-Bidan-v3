@@ -25,7 +25,7 @@ Mobile.delay(4)
 
 Mobile.scrollToText('Lihat data penunjang')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_lihatDataPenunjang1'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.delay(4)
 

@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>84cabf25-7c8d-4f71-aeda-355f2181f481</testSuiteGuid>
    <testCaseLink>
+      <guid>b9d54fb5-441b-46fb-a5c6-4729956caf30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProfileIbu_01</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ac5b4373-7d85-49f1-b1ac-28c7c6e78cd3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

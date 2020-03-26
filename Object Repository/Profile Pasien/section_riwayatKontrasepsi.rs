@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.LinearLayout' and @instance = '11']</value>
+         <value>//*[@class = 'android.widget.LinearLayout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>android.widget.LinearLayout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>instance</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3:id/llRiwayatKontrasepsi</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/llRiwayatKontrasepsi</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
