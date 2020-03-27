@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi field nomor KTP dapat diisi 16 digit angka</description>
+   <name>ProfileIbu_24</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad94a373-1f6c-4499-99d5-7f8c279f7c6e</testCaseGuid>
+</TestCaseEntity>
