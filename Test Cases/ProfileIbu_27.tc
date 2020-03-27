@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Verifikasi field nomor handphone hanya dapat diisi maksimal 13 digit angka</description>
-   <name>ProfileIbu_28</name>
+   <name>ProfileIbu_27</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fe5994fd-06e0-49d2-96eb-f96bffc9a1f8</testCaseGuid>

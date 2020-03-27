@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Verifikasi akan tampil dialog konfirmasi pembatalan ketika pengguna telah mengisi satu atau lebih field,
 lalu berpindah tab tanpa tap button Simpan (vice versa)</description>
-   <name>ProfileIbu_30</name>
+   <name>ProfileIbu_32</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d4121a5c-9e8f-420c-9a5d-8931078e33ca</testCaseGuid>

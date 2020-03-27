@@ -38,13 +38,13 @@
       <guid>a24fc027-9cf9-42d6-8d8e-2417a6297f75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProfileIbu_28</testCaseId>
+      <testCaseId>Test Cases/ProfileIbu_27</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f13465bd-0100-4766-9266-f5e7ac213399</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProfileIbu_30</testCaseId>
+      <testCaseId>Test Cases/ProfileIbu_32</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2e5103b8-291c-49c6-a82e-96cd5787d6a6</guid>
