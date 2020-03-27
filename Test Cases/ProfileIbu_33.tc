@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan melihat halaman data diri - alamat tampil ketika pengguna tap tab alamat</description>
+   <name>ProfileIbu_33</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a660ecd5-72d4-490b-a11c-704b104d9a89</testCaseGuid>
+</TestCaseEntity>

@@ -155,7 +155,7 @@ Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_job'),
 
 Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_wirausaha'), 0)
 
-Mobile.tap(findTestObject('Data Diri Pasien/button_simpan'), 0)
+Mobile.tap(findTestObject('Data Diri Pasien/button_Simpans'), 0)
 
 Mobile.delay(5)
 
