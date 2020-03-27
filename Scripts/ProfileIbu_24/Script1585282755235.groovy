@@ -21,10 +21,10 @@ Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datadiri'), 
 Mobile.delay(1)
 
 String charset = ('9'..'1').join()
-Integer length = 16
+Integer length = 17
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
 
-Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_ktp'), '3'+randomString, 0)
+Mobile.setText(findTestObject('Object Repository/Data Diri Pasien/field/field_ktp'), randomString, 0)
 
 a = Mobile.getText(findTestObject('Object Repository/Data Diri Pasien/field/field_ktp'), 0)
 

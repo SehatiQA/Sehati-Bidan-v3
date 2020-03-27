@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi field nomor KTP dapat diisi 16 digit angka</description>
+   <description>Verifikasi akan tampil dialog konfirmasi pembatalan ketika pengguna telah mengisi satu atau lebih field,
+lalu berpindah tab tanpa tap button Simpan (vice versa)</description>
    <name>ProfileIbu_24</name>
    <tag></tag>
    <comment></comment>
