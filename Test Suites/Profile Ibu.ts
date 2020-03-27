@@ -29,6 +29,12 @@
       <testCaseId>Test Cases/ProfileIbu_04</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f13465bd-0100-4766-9266-f5e7ac213399</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProfileIbu_30</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2e5103b8-291c-49c6-a82e-96cd5787d6a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
