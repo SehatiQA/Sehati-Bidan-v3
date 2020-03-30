@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Object Repository/INC/section_catatanIbuDatang'), 0)
 
 Mobile.tap(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
 
-Mobile.tap(findTestObject('Date Picker/SimpanWaktuPemeriksaan'), 0)
+Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
 
 a = Mobile.getText(findTestObject('Object Repository/INC/Catatan Ibu Datang/field_tanggalPemeriksaan'), 0)
 
@@ -35,7 +35,7 @@ Mobile.swipe(439, 1743, 439, 1300)
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Date Picker/SimpanWaktuPemeriksaan'), 0)
+Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
 
 Mobile.delay(1)
 

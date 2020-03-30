@@ -39,12 +39,12 @@ Mobile.tap(findTestObject('Object Repository/INC/Observasi/option_incObservasi_3
 
 Mobile.tap(findTestObject('Object Repository/INC/Observasi/Tanggal Kunjungan/field_tanggalPemeriksaanObservasi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Date Picker/SimpanWaktuPemeriksaan'), 0)
+Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
 
 Mobile.tap(findTestObject('Object Repository/INC/Observasi/Tanggal Kunjungan/field_jamPemeriksaanObservasi'), 0)
 
 Mobile.swipe(627, 1766, 627, 900)
 
-Mobile.tap(findTestObject('Object Repository/Date Picker/SimpanWaktuPemeriksaan'), 0)
+Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
 
 Mobile.verifyElementExist(findTestObject('INC/Observasi/Error/error_jam_tidakboleh_lebih'), 0)

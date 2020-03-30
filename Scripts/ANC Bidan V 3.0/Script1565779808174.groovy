@@ -19,9 +19,9 @@ Mobile.tap(findTestObject('ANC/Beranda/android.view.ViewGroup6'), 0)
 
 Mobile.tap(findTestObject('ANC/Beranda/ibu Ais'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Date Picker Waktu Kunjungan'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Button Simpan Tanggal'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('ANC/Waktu Kunjungan/Button Selanjutnya Waktu Pemeriksaan'), 0)
 
@@ -73,9 +73,9 @@ Mobile.setText(findTestObject('ANC/GPA/Set Text Abortus'), '0', 0)
 
 Mobile.tap(findTestObject('ANC/GPA/Button Selanjutnya GPA'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Date Picker Prakiraan HPHT'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Button Simpan Tanggal'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('ANC/HPHT/Field Siklus Haid'), 0)
 
@@ -187,9 +187,9 @@ Mobile.tap(findTestObject('ANC/Konseling/Chips Konseling - Persiapan Laktasi'), 
 
 Mobile.tap(findTestObject('ANC/Konseling/Chips Konseling - Persiapan Persalinan'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Date Picker Jadwal Kunjungan Kembali'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Date Picker/Button Simpan Tanggal'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('ANC/Ulasan/Button - Lihat Ulasan'), 0)
 
