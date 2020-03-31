@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi ketika pengguna tap Waktu Pemeriksaan akan tampil dialog kalender</description>
+   <name>ANC_Module_ABC_20</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50df1b88-56e7-42f1-a1f6-30f27899c845</testCaseGuid>
+</TestCaseEntity>
