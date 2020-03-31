@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\Sehati - Rudi\\Documents\\app-universal-rc-quickfix.apk', true)
+Mobile.startApplication(GlobalVariable.appPath, true)
 
 Mobile.delay(4)
 
