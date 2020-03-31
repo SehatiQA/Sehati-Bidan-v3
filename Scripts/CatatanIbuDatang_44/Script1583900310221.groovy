@@ -45,7 +45,7 @@ Mobile.verifyElementNotExist(findTestObject('Object Repository/INC/Data Penunjan
 
 Mobile.tap(findTestObject('Object Repository/INC/button_tutup'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/button_back'), 0)
+Mobile.tap(findTestObject('Global/button_back'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Home/Menu Burger'), 0)
 

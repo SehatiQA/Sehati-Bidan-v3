@@ -48,7 +48,7 @@ Mobile.swipe(417, 1770, 417, 2100)
 
 Mobile.swipe(1000, 1770, 1000, 2100)
 
-Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
+Mobile.tap(findTestObject('Global/DatePicker/button_simpantanggal'), 0)
 
 Mobile.scrollToText('Kota/Kabupaten')
 

@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
 Mobile.tap(findTestObject('ANCS/field_tanggal_pemeriksaan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
+Mobile.tap(findTestObject('Global/DatePicker/button_simpantanggal'), 0)
 
 a = Mobile.getText(findTestObject('ANCS/field_tanggal_pemeriksaan'), 0)
 
@@ -41,7 +41,7 @@ Mobile.swipe(439, 1743, 439, 1507)
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/DatePicker/button_simpantanggal'), 0)
+Mobile.tap(findTestObject('Global/DatePicker/button_simpantanggal'), 0)
 
 Mobile.delay(1)
 

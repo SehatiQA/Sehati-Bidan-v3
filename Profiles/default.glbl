@@ -24,4 +24,9 @@
       <initValue>'Automation Kehamilan Minggu Kecil'</initValue>
       <name>kehamilankecil</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Automation Jangan Di Hamilin'</initValue>
+      <name>ibu_no_label</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

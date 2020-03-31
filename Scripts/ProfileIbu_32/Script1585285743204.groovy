@@ -54,7 +54,7 @@ Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/Modal Simpan Data 
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/button_back'), 0)
+Mobile.tap(findTestObject('Global/button_back'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datadiri'), 0)
 

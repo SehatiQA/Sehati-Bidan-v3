@@ -26,7 +26,7 @@ Mobile.clearText(findTestObject('Object Repository/Riwayat Alergi/field_alergiLa
 
 Mobile.tap(findTestObject('Object Repository/Riwayat Alergi/button_simpan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Riwayat Alergi/button_back'), 0)
+Mobile.tap(findTestObject('Global/button_back'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_riwayatAlergi'), 0)
 
