@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna akan dialihkan ke halaman selanjutnya ketika tap button Selanjutnya</description>
+   <name>ANC_Module_ABC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2ac56d6-abcb-47d0-87ef-0010ed7d3ad5</testCaseGuid>
+</TestCaseEntity>

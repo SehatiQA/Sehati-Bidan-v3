@@ -34,4 +34,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ANC_Module_ABC_27</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9462c60d-ded1-4b97-90c6-55984612cce3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANC_Module_ABC_30</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b15abb8-4579-437d-bceb-3c4c1ee4ed3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANC_Module_ABC_35</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

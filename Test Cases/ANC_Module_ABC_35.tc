@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat memilih chips jenis keluhan ketika sudah memilih chip &quot;Tidak Ada&quot;</description>
+   <name>ANC_Module_ABC_35</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfafdb54-0405-4058-ac85-708d66a2ce67</testCaseGuid>
+</TestCaseEntity>
