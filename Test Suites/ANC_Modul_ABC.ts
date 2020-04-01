@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ANC_Module_ABC_22</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5eb149ad-0096-409d-b569-1ad4ccde436a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ANC_Module_ABC_27</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

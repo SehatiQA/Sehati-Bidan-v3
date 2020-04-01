@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat memilih chips jenis penyakit ketika sudah memilih chip &quot;Tidak Ada&quot;</description>
+   <name>ANC_Module_ABC_27</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ece0063c-e68a-4753-8632-f9c17cf1a279</testCaseGuid>
+</TestCaseEntity>
