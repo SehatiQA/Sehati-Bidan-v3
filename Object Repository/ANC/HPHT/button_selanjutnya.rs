@@ -4,6 +4,12 @@
    <name>button_selanjutnya</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and @instance = '3' and (text() = 'SELANJUTNYA' or . = 'SELANJUTNYA') and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.staging.v3:id/button_text']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/button_text</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3:id/button_text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
