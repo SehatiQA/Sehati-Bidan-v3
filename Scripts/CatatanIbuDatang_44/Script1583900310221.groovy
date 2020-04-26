@@ -25,7 +25,7 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), 'Automation Jangan Di Hamilin', 0)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasiens'), 'Automation Jangan Di Hamilin', 0)
 
 Mobile.delay(1)
 

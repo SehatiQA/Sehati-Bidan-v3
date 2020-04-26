@@ -23,7 +23,7 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), GlobalVariable.ibu_no_label, 0)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasiens'), GlobalVariable.ibu_no_label, 0)
 
 Mobile.delay(1)
 

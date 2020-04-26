@@ -141,7 +141,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Login_25'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(1)
+Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Home/Button ANC Beranda'), 0)
 
@@ -149,9 +149,9 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasien'), 'Automation Tidak Teraba', 0)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasiens'), 'Automation Tidak Teraba', 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
@@ -163,11 +163,11 @@ Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantang
 
 Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjutnya'), 0)
 
-Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chips_kista'), 0)
-
 Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chip_gakada'), 0)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Keadaan Ibu/chips_kista'), 'checked', 'false', 0)
+Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chips_hiv'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chip_gakada'), 0)
 
 Mobile.scrollToText('SELANJUTNYA')
 
@@ -181,7 +181,9 @@ Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjut
 
 Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/ANC/Keluhan Ibu/chips_IMS'), 0)
+Mobile.tap(findTestObject('Object Repository/ANC/Keluhan Ibu/chips_tidak_ada'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ANC/Keluhan Ibu/chips_perdarahan'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Keluhan Ibu/chips_tidak_ada'), 0)
 
@@ -190,12 +192,6 @@ Mobile.scrollToText('SELANJUTNYA')
 Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjutnya'), 0)
 
 Mobile.delay(1)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/ANC/GPA/field_G'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/ANC/GPA/field_P'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/ANC/GPA/field_A'), 0)
 
 Mobile.setText(findTestObject('Object Repository/ANC/GPA/field_G'), '1', 0)
 
@@ -295,11 +291,13 @@ Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/checkbox_sayaYakin'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/button_hasilKunjungan'), 0)
 
-Mobile.delay(2)
+Mobile.delay(5)
 
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilKunjungan'), 'text', 'Hasil Kunjungan', 0)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilPemeriksaan'), 'text', 'Ny. Aaac P0A0 dengan Ballotemen Tidak Teraba', 0)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilPemeriksaan'), 'text', 'Ny. Automation Tidak Teraba P0A0 dengan Ballotemen Tidak Teraba', 0)
+
+Mobile.scrollToText('Tidak, pemeriksaan sudah selesai')
 
 Mobile.tap(findTestObject('Object Repository/ANC/Hasil Kunjungan/button_pemeriksaanSelesai'), 0)
 
