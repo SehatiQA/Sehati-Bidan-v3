@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/mother_profile_fab']</value>
+         <value>//*[@class = 'android.widget.ImageButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>

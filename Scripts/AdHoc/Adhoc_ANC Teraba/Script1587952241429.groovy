@@ -162,19 +162,19 @@ Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/field_tanggal')
 Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantanggal'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjutnya'), 0)
-//
-Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chip_gakada'), 0)
-//
-Mobile.scrollToText('SELANJUTNYA')
-//
-Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_ibu_alkohol_no'), 0)
-//
-Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_ibu_merokok_yes'), 0)
-//
-Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_kel_merokok_no'), 0)
-//
-Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjutnya'), 0)
-//
+////
+//Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/chip_gakada'), 0)
+////
+//Mobile.scrollToText('SELANJUTNYA')
+////
+//Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_ibu_alkohol_no'), 0)
+////
+//Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_ibu_merokok_yes'), 0)
+////
+//Mobile.tap(findTestObject('Object Repository/ANC/Keadaan Ibu/rb_kel_merokok_no'), 0)
+////
+//Mobile.tap(findTestObject('Object Repository/ANC/Waktu Kunjungan/button_selanjutnya'), 0)
+////
 Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Keluhan Ibu/chips_tidak_ada'), 0)
@@ -291,14 +291,16 @@ Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/checkbox_sayaYakin'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/button_hasilKunjungan'), 0)
 
-Mobile.delay(5)
+Mobile.delay(60)
 
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilKunjungan'), 'text', 'Hasil Kunjungan', 0)
 
 //Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilPemeriksaan'), 'text', 'Ny. Automation Teraba P0A0 dengan Ballotemen Teraba', 0)
 
+Mobile.scrollToText('Tidak, pemeriksaan sudah selesai')
+
 Mobile.tap(findTestObject('Object Repository/ANC/Hasil Kunjungan/button_pemeriksaanSelesai'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_call'), 0)

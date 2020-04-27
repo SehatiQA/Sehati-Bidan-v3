@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @instance = '3' and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/edit_input_multiple']</value>
+         <value>//*[@class = 'android.widget.EditText' and @instance = '3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>Namun pandang juga rasa, tak terbias di wajah mereka</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>

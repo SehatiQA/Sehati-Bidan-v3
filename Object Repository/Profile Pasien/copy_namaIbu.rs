@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and @instance = '3' and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/tv_user_name']</value>
+         <value>//*[@class = 'android.widget.TextView' and @instance = '3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>Automation Kehamilan Minggu Kecil</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>

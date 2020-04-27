@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and (text() = 'SIMPAN' or . = 'SIMPAN') and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/button_text']</value>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'SIMPAN' or . = 'SIMPAN')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>SIMPAN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>

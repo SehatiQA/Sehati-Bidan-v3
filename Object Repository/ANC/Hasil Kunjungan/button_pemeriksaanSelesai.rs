@@ -4,6 +4,12 @@
    <name>button_pemeriksaanSelesai</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and @instance = '13' and (text() = 'Tidak, pemeriksaan sudah selesai' or . = 'Tidak, pemeriksaan sudah selesai') and @package = 'com.sehati.kehamilan.sehati_bidan_android.staging.v3']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>Tidak, pemeriksaan sudah selesai</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
