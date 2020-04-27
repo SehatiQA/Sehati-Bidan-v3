@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna tidak dapat memilih chips jenis keluhan ketika sudah memilih chip &quot;Tidak Ada&quot;</description>
+   <name>Adhoc_ANC Teraba</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d479b53d-8c9d-41eb-9465-eab2b43b8747</testCaseGuid>
+</TestCaseEntity>
