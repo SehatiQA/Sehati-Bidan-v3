@@ -120,7 +120,7 @@ Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Global/button_back'), 0)
 
-Mobile.delay(50)
+Mobile.delay(5)
 
 Mobile.scrollToText('Profile')
 
@@ -128,9 +128,13 @@ Mobile.tap(findTestObject('Object Repository/Profile Pasien/section_datapasangan
 
 Mobile.delay(2)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Data Pasangan/field_phoneNumber'), 'text', '0812'+randomphone, 0)
+a = Mobile.getText(findTestObject('Object Repository/Data Pasangan/field_phoneNumber'), 0)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Data Pasangan/field_namaPasangan'), 'text', 'Bapak '+randomString, 0)
+b = Mobile.getText(findTestObject('Object Repository/Data Pasangan/field_namaPasangan'), 0)
+
+Mobile.verifyMatch(a, '0812'+randomphone, false)
+
+Mobile.verifyMatch(b, 'Bapak '+randomString, false)
 
 //Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/tab_alamat'), 0)
 //

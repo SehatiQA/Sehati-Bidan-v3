@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/field_tglLah
 
 Mobile.delay(2)
 
-Mobile.swipe(957, 1500, 957, 1800)
+Mobile.swipe(1060, 1500, 1060, 1800)
 
 Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantanggal'), 0)
 
