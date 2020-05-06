@@ -104,6 +104,8 @@ Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_job_b
 
 Mobile.tap(findTestObject('Data Diri Pasien/button_Simpans'), 0)
 
+Mobile.delay(3)
+
 ///////////////
 
 Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/tab_alamat'), 0)
