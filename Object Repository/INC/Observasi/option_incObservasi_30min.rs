@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '30 Menit' or . = '30 Menit') and @resource-id = 'com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/thirty_title']</value>
+         <value>//*[(text() = '30 Menit' or . = '30 Menit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -146,7 +146,7 @@
       <value>30 Menit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>

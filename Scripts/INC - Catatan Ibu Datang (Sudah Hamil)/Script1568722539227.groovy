@@ -99,10 +99,10 @@ Mobile.tap(findTestObject('Object Repository/Riwayat Penyakit/chips_hepatitis'),
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/INC/Observasi/button_lihatUlasan'), 0)
+Mobile.tap(findTestObject('INC/Observasi/Konseling/button_lihatUlasan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/INC/Observasi/checkbox_sayaYakin'), 0)
+Mobile.tap(findTestObject('INC/Observasi/Ulasan/checkbox_sayaYakin'), 0)
 
-Mobile.tap(findTestObject('Object Repository/INC/Observasi/button_HasilKunjungan'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.scrollToText('Tidak, Pemeriksaan Pasien Sudah Selesai')

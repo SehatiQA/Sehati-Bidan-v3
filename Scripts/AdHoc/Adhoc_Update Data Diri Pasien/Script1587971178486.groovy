@@ -144,4 +144,4 @@ Mobile.delay(1)
 
 Mobile.scrollToText('SIMPAN')
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Data Diri Pasien/field/field_email'), 'text', 'jalan '+randomString, 0)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Data Diri Pasien/field_on_alamat_tab/field_alamat'), 'text', 'jalan '+randomString, 0)
