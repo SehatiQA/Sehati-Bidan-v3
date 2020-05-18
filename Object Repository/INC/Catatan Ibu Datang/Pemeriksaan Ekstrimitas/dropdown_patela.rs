@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>field_tanggalPemeriksaan</name>
+   <name>dropdown_patela</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>a41f0b08-71c4-4b37-8494-e09b8807b0d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @instance = '0']</value>
+         <value>//*[@class = 'android.widget.EditText' and @instance = '1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,28 +24,28 @@
       <matchCondition>equals</matchCondition>
       <name>instance</name>
       <type>Main</type>
-      <value>0</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>17 September 2019</value>
+      <value>Pilih salah satu</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3:id/edit_input</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3:id/edit_input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.sehati.kehamilan.sehati_bidan_android.indo.v3</value>
+      <value>com.sehati.kehamilan.sehati_bidan_android.staging.v3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,34 +122,34 @@
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>56</value>
+      <value>32</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>589</value>
+      <value>386</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>1328</value>
+      <value>656</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>154</value>
+      <value>88</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]</value>
    </webElementProperties>
 </WebElementEntity>

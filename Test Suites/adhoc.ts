@@ -58,4 +58,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AdHoc/Adhoc_Update Data Diri Pasien</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8556ed0c-7ebd-4f6a-b233-bb7742860c8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdHoc/Adhoc_Catatan Ibu Datang</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
