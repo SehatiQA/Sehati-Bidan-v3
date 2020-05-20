@@ -64,4 +64,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AdHoc/Adhoc_Catatan Ibu Datang</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d6a613d5-a79d-43ac-b7f0-81fe628ddb35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdHoc/Adhoc_Abortus</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

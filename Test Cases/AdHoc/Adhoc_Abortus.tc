@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi field &quot;Jumlah Kontraksi&quot; dapat diinput oleh angka minimal 0 dan maksimal 20</description>
+   <name>Adhoc_Abortus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae051aec-037f-4b5a-bcd1-173a4a55798f</testCaseGuid>
+</TestCaseEntity>

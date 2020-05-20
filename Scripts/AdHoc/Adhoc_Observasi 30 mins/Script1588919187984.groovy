@@ -82,7 +82,7 @@ Mobile.tap(findTestObject('INC/Observasi/Ulasan/checkbox_sayaYakin'), 0)
 
 Mobile.tap(findTestObject('Object Repository/INC/Observasi/Ulasan/button_hasilKunjungan (1)'), 0)
 
-Mobile.delay(15)
+Mobile.delay(10)
 
 b = Mobile.getText(findTestObject('Object Repository/INC/Observasi/Hasil Kunjungan/copy_namaIbu'), 0)
 

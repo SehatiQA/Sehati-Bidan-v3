@@ -308,7 +308,7 @@ Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/checkbox_sayaYakin'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ANC/Ulasan/button_hasilKunjungan'), 0)
 
-Mobile.delay(60)
+Mobile.delay(10)
 
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/ANC/Hasil Kunjungan/copy_hasilKunjungan'), 'text', 'Hasil Kunjungan', 0)
 

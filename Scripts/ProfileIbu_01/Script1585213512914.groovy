@@ -43,9 +43,9 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/secti
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/fab_tambah'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_teleCTG'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_teleCTGs'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_rujukPasien'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_rujuk'), 0)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/section_riwayatKunjungan'), 0)
 

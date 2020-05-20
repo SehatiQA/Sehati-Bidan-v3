@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'apknyaquickfix-stage-aslina.apk'</initValue>
+      <initValue>'C:\\Users\\Sehati - Rudi\\Downloads\\app-universal-debug (7).apk'</initValue>
       <name>appPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -28,5 +28,25 @@
       <description></description>
       <initValue>'Automation Jangan Di Hamilin'</initValue>
       <name>ibu_no_label</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ibu</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>b1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>b</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>c</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

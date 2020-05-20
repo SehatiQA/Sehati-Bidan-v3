@@ -215,36 +215,28 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
-Mobile.delay(4)
+Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/button_rujuk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Profile Pasien/title_ProfileIbu'), 'Profil Ibu')
 
-Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/fab_tambah'), 0)
 
-//Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Profile Pasien/Rujuk/copy_namaibu'), 'text', GlobalVariable.ibu, 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/FAB/FAB_Abortus'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_perdarahan'), 0)
+Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_hipertensi'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/Abortus/field_tanggal'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_gemili'), 0)	
+Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantanggal'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_gawatJanin'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/Abortus/field_jenisAbortus'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_serotinus'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/Abortus/opt_1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_kelainanLetak'), 0)
+Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/field_JenisTempatRujuk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/opt_1'), 0)
-
-Mobile.scrollToText('SIMPAN')
-
-Mobile.setText(findTestObject('Object Repository/Profile Pasien/Rujuk/field_namaTempatRujuk'), 'Rumah Sakit '+randomString, 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/button_Simpans'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/Abortus/button_simpan'), 0)
 
 Mobile.delay(3)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_rujuk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Profile Pasien/title_ProfileIbu'), 'Profil Ibu')
