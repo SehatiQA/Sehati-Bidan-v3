@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi field &quot;Jumlah Kontraksi&quot; dapat diinput oleh angka minimal 0 dan maksimal 20</description>
+   <name>Adhoc_IUFD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baf80e7e-28aa-4dd1-ac88-8529908f5e19</testCaseGuid>
+</TestCaseEntity>

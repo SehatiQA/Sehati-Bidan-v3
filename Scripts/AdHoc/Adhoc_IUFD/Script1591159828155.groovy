@@ -37,7 +37,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 a = System.currentTimeMillis() //currenttime-milli
 int b = a/1000 //currenttime (tanggal kembali)
 c = b - 172800 // 2hari lalu dari hari ini (tanggal occurance)
-d = b - 1728000 //20 hari lalu dari hari ini (LMP)
+d = b - 15552000 //6bln lalu dari hari ini (LMP)
 e = d + 24451200 //edd
 println (a)
 println (b)
@@ -169,7 +169,7 @@ TestObjectProperty header_ANC5 = new TestObjectProperty('Authorization', Conditi
 
 ArrayList defaultHeader_ANC = Arrays.asList(header_ANC1, header_ANC2, header_ANC3, header_ANC4, header_ANC5)
 
-String body_ANC = '''{"abortus":2,"advices":["alert"],"advices_display":["Tanda Bahaya"],"baby":{"abdomen":"fundal-height","fetus_position":"breech","fundal_height":30,"leopold":"single","pulse_1":250,"weight":1000},"complaints":[],"complaints_text":[],"diseases":["tuberkolosis"],"edd":''' + e + ''',"gravida":5,"has_complaints":false,"has_diseases":true,"has_smoking_family":false,"history":{"blood_transfusion":true,"forcep":true,"macrosomia":true,"manual_removal_placenta":true,"premature":true,"sc":true},"id_mother":"44556|anc","include":"medications,complaint","is_drinking_alcohol":false,"is_smoking":false,"last_abortus_at":757395888,"last_abortus_number":2,"last_maternity_at":284010288,"lmp":''' + d + ''',"medications":[],"menstruation_cycle":23,"mother":{"conjunctiva":"normal","current_tt":"tt2","diastolic":300,"height":100,"isOedemaFill":true,"isPatellarFill":true,"isVaricesFill":true,"last_tt":"tt1","muac":20.5,"pulse":30,"respiration":30,"systolic":300,"temperature":45,"weight":30},"occurrence_at":''' + c + ''',"para":2,"return_at":''' + b + ''',"state":"anc"}'''
+String body_ANC = '''{"abortus":1,"advices":["alert"],"advices_display":["Tanda Bahaya"],"baby":{"abdomen":"fundal-height","fetus_position":"breech","fundal_height":30,"leopold":"single","pulse_1":250,"weight":1000},"complaints":[],"complaints_text":[],"diseases":["tuberkolosis"],"edd":''' + e + ''',"gravida":3,"has_complaints":false,"has_diseases":true,"has_smoking_family":false,"history":{"blood_transfusion":true,"forcep":true,"macrosomia":true,"manual_removal_placenta":true,"premature":true,"sc":true},"id_mother":"44556|anc","include":"medications,complaint","is_drinking_alcohol":false,"is_smoking":false,"last_abortus_at":757395888,"last_abortus_number":2,"last_maternity_at":284010288,"lmp":''' + d + ''',"medications":[],"menstruation_cycle":23,"mother":{"conjunctiva":"normal","current_tt":"tt2","diastolic":300,"height":100,"isOedemaFill":true,"isPatellarFill":true,"isVaricesFill":true,"last_tt":"tt1","muac":20.5,"pulse":30,"respiration":30,"systolic":300,"temperature":45,"weight":30},"occurrence_at":''' + c + ''',"para":1,"return_at":''' + b + ''',"state":"anc"}'''
 
 RequestObject ro3 = new RequestObject()
 
@@ -215,36 +215,70 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('List Pasien/list_ibu_1'), 0)
 
-Mobile.delay(4)
+Mobile.delay(1)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/button_rujuk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Profile Pasien/title_ProfileIbu'), 'Profil Ibu')
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/fab_tambah'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/FAB/FAB_IUFD'), 0)
+
+Mobile.delay(1)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_jumlahJanin'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_tidaksekolah'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/button_selanjutnya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_tglLahirBayi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantanggal'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_jamLahirBayi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Global/DatePicker/button_simpantanggal'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/button_selanjutnya'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Profile Pasien/IUFD/field_namaBayi'), 'anak '+randomString, 0)
+
+Mobile.setText(findTestObject('Object Repository/Profile Pasien/IUFD/field_usiaBayi'), '32', 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_caraPersalinan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_tidaksekolah'), 0)
+
+Mobile.scrollToText('Perempuan')
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_penolongPersalinan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_tidaksekolah'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/field_tempatPersalinan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/field/option_pendidikan_tidaksekolah'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/radio_Lakilaki'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Profile Pasien/IUFD/field_beratBayi'), '323', 0)
+
+Mobile.setText(findTestObject('Object Repository/Profile Pasien/IUFD/field_panjangBayi'), '32', 0)
+
+Mobile.scrollToText('BATAL')
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/button_selanjutnya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/checkbox_sayaYakin'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/button_hasilKunjungan'), 0)
 
 Mobile.delay(5)
 
-//Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Profile Pasien/Rujuk/copy_namaibu'), 'text', GlobalVariable.ibu, 0)
+Mobile.scrollToText('TUTUP')
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_perdarahan'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Pasien/IUFD/button_tutup'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_hipertensi'), 0)
+Mobile.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_gemili'), 0)	
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_gawatJanin'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_serotinus'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/chips_kelainanLetak'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/field_JenisTempatRujuk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Profile Pasien/Rujuk/opt_1'), 0)
-
-Mobile.scrollToText('SIMPAN')
-
-Mobile.setText(findTestObject('Object Repository/Profile Pasien/Rujuk/field_namaTempatRujuk'), 'Rumah Sakit '+randomString, 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Diri Pasien/button_Simpans'), 0)
-
-Mobile.delay(3)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Profile Pasien/button_rujuk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Profile Pasien/title_ProfileIbu'), 'Profil Ibu')
