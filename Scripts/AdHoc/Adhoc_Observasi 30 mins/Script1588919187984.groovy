@@ -25,7 +25,7 @@ Mobile.delay(1)
 
 Mobile.tap(findTestObject('Object Repository/List Pasien/icon_search'), 0)
 
-Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasiens'), 'Aaa Ibu Nullable', 0)
+Mobile.setText(findTestObject('Object Repository/List Pasien/field_searchPasiens'), 'Autometod Pusing Njir', 0)
 
 Mobile.delay(1)
 
