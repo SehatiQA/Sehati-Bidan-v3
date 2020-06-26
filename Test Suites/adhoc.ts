@@ -41,6 +41,12 @@
       <testCaseId>Test Cases/AdHoc/Adhoc_Observasi 30 mins</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a9ebfbdd-f6c0-488c-aaa6-b540393b5c8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdHoc/Adhoc_Observasi 4 Jam</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ba13ec0d-3401-45c4-9d7a-13aee9af89b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,5 +75,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AdHoc/Adhoc_Abortus</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65da2a3a-00ca-4746-9598-9f4cb2ff8326</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdHoc/Adhoc_IUFD</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8dd32e16-fd00-4371-a3f1-c607ff7f56b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdHoc/Adhoc_Catatan Persalinan (Drop Out)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
